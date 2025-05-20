@@ -5,10 +5,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Windows-blue?logo=windows&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Language-C%23-blueviolet?logo=c-sharp&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/GIS-ArcGIS--Engine-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Platform-Windows-blue?logo=windows&style=flat"/>
+  <img src="https://img.shields.io/badge/Language-C%23-68217A?logo=c-sharp&style=flat"/>
+  <img src="https://img.shields.io/badge/GIS-ArcGIS--Engine-118822?style=flat"/>
 </p>
+
 
 ---
 
