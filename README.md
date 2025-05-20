@@ -1,6 +1,3 @@
-miniK
-原型计划、零号项目
-
 # miniK GIS 系统 🗺️
 
 > 轻量级 GIS 桌面程序，集成 ArcGIS Engine，支持空间分析、图层管理、目标识别等功能的可拓展平台。
@@ -46,7 +43,6 @@ miniK
 ### 构建步骤
 
 ```bash
-git clone https://github.com/你的账号/miniK.git
+git clone https://github.com/dianzimofashi/miniK.git
 cd miniK
-# 用 Visual Studio 打开 miniK_independent.sln
-# 构建并运行
+
