@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Windows-blue?logo=windows&style=flat"/>
-  <img src="https://img.shields.io/badge/Language-C%23-68217A?logo=c-sharp&style=flat"/>
-  <img src="https://img.shields.io/badge/GIS-ArcGIS--Engine-118822?style=flat"/>
+  <img src="https://img.shields.io/badge/Platform-Windows-blue?logo=windows&style=plastic"/>
+  <img src="https://img.shields.io/badge/Language-C%23-68217A?logo=c-sharp&style=plastic"/>
+  <img src="https://img.shields.io/badge/GIS-ArcGIS--Engine-118822?style=plastic"/>
 </p>
 
 
