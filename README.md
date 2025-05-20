@@ -1,12 +1,12 @@
 <h1 align="center">🌍 miniK GIS 系统</h1>
 
 <p align="center">
-轻量级桌面 GIS 应用，内置 ArcGIS Engine、支持空间分析与 AI 模块扩展 💻🧠
+轻量级 ArcGIS Engine 桌面程序，用于空间分析、图层管理与 AI 目标识别扩展 💻🧠
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/platform-Windows-blue?logo=windows&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/language-C%23-blueviolet?logo=c-sharp&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Platform-Windows-blue?logo=windows&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Language-C%23-blueviolet?logo=c-sharp&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/GIS-ArcGIS--Engine-green?style=for-the-badge"/>
 </p>
 
@@ -14,49 +14,114 @@
 
 ## 📌 项目简介
 
-`miniK` 是一个专为地理信息科学专业开发的 Windows 桌面 GIS 系统，基于 **C# WinForms** 与 **ArcGIS Engine SDK** 构建。该系统支持用户进行空间数据加载、分析与未来 AI 图像识别（如 YOLO）的扩展。
+| 项目名称 | miniK GIS 桌面系统 |
+|----------|--------------------|
+| 适用专业 | 地理信息科学 / 空间分析 |
+| 核心框架 | C# + WinForms + ArcGIS Engine |
+| 项目特性 | 可扩展、轻量、集成空间分析与 AI 接口 |
+| 目标用途 | 学术研究 / 学生项目 / 空间数据可视化实验平台 |
 
 ---
 
-## ✨ 功能特色
+## ✨ 当前功能一览
 
-| 功能模块                  | 描述                                                                 |
-|---------------------------|----------------------------------------------------------------------|
-| ✅ 授权绑定               | 启动时自动绑定 ArcGIS Runtime 授权                                   |
-| 🔐 登录窗口               | 用户名 + 密码验证 (`miniKsa` / `123123`)                             |
-| 🪟 主窗体界面             | 菜单栏、可拓展控件区域                                               |
-| ℹ️ 关于窗口               | 弹窗展示作者、版本信息                                               |
-| 📈 KDE 核密度分析         | （预留接口）用于空间热点分析计算                                     |
-| 🤖 YOLO AI 模块（计划）   | 接入图像识别算法，用于空间对象检测与叠加                             |
-
----
-
-## 🧱 技术栈总览
-
-| 技术         | 说明                       |
-|--------------|----------------------------|
-| `C#`         | 主开发语言                 |
-| `WinForms`   | 桌面 UI 框架               |
-| `ArcGIS Engine` | GIS 分析与地图展示       |
-| `ESRI.ArcGIS` DLLs | 授权与地图控件支持   |
-| `YOLO` (可选) | 图像目标识别（扩展模块） |
+| 功能 | 描述 |
+|------|------|
+| ✅ 授权绑定 | 自动调用 `ESRI.ArcGIS.RuntimeManager.Bind` 绑定 Runtime |
+| 🔐 登录验证 | 弹出窗口验证账号密码（miniKsa / 123123） |
+| 🪟 主界面 | 多功能菜单栏与地图控件预留区域 |
+| ℹ️ 关于弹窗 | 弹出包含作者与版本信息的窗口 |
+| 📈 KDE 模块 | （预留）核密度分析工具，用于空间热点识别 |
+| 🤖 YOLO AI 接口 | （预留）图像识别并映射到地图上 |
 
 ---
 
-## 🚀 快速开始
+## 🧱 技术栈总表
 
-### ⚙️ 环境要求
-
-- 🪟 Windows 10 / 11
-- 🧰 Visual Studio 2019 / 2022
-- 🧭 ArcGIS Engine Runtime + SDK（推荐 10.2+）
-- 💡 .NET Framework 4.7.2+
+| 类别 | 使用技术 | 描述 |
+|------|----------|------|
+| 编程语言 | `C#` | 主开发语言 |
+| UI 框架 | `WinForms` | Windows 桌面 UI |
+| GIS 引擎 | `ArcGIS Engine` | 提供地图展示、图层操作等功能 |
+| 授权组件 | `ESRI.ArcGIS.RuntimeManager` | 管理 Engine 授权许可 |
+| AI 模块（可选） | `YOLOv5` | 图像目标检测与空间叠加（未来扩展） |
 
 ---
 
-### 🔧 构建运行
+## ⚙️ 环境与构建要求
 
-```bash
-git clone https://github.com/dianzimofashi/miniK.git
-cd miniK
-# 在 Visual Studio 中打开 .sln 并运行
+| 要求项 | 描述 |
+|--------|------|
+| 系统 | Windows 10 / 11 |
+| IDE | Visual Studio 2019 / 2022 |
+| SDK | ArcGIS Engine SDK（推荐 10.2+） |
+| .NET Framework | 4.7.2 或以上 |
+| 依赖包 | `ESRI.ArcGIS.*` DLL 集合 |
+| 登录账户 | 用户名：`miniKsa`，密码：`123123` |
+
+---
+
+## 🧭 构建与运行
+
+| 步骤 | 命令 / 操作 |
+|------|--------------|
+| 1️⃣ 获取项目 | `git clone https://github.com/dianzimofashi/miniK.git` |
+| 2️⃣ 打开项目 | 使用 Visual Studio 打开 `miniK.sln` |
+| 3️⃣ 构建程序 | 编译并运行主程序 |
+| 4️⃣ 登录系统 | 输入默认账号进行测试运行 |
+
+---
+
+## 📁 项目结构说明
+
+| 路径 / 文件 | 描述 |
+|-------------|------|
+| `Program.cs` | 应用程序主入口 |
+| `Firm_window/miniK.cs` | 主窗体代码 |
+| `Firm_window/AboutForm.cs` | 关于弹窗代码 |
+| `Resources/` | 图片、图标等资源文件夹 |
+| `README.md` | 当前项目说明文档 |
+| `LICENSE` | 开源协议（建议 MIT）|
+
+---
+
+## 🔮 v2.0 规划功能
+
+| 状态 | 功能模块 | 说明 |
+|------|----------|------|
+| 🟩 规划中 | ArcGIS 地图控件集成 | 支持地图显示与交互 |
+| 🟩 规划中 | 图层加载 / 导入 | 支持 Shapefile、Raster |
+| 🟩 规划中 | 核密度分析（KDE） | 基于 ArcEngine 或 GDAL |
+| 🟩 规划中 | YOLO 图像识别 | 加载识别结果并空间映射 |
+| 🟩 规划中 | 热力图可视化 | 支持颜色渐变渲染 |
+| 🟩 规划中 | 导出地图 | 保存为图片 / PDF 文件 |
+
+---
+
+## 📸 示例界面（建议上传替换）
+
+| 登录界面 | 主界面 | 关于弹窗 |
+|----------|--------|----------|
+| ![login](images/login.png) | ![main](images/main.png) | ![about](images/about.png) |
+
+---
+
+## 📄 开源协议
+
+| 类型 | 说明 |
+|------|------|
+| 📜 License | 本项目使用 [MIT License](LICENSE) 开源，可自由使用与二次开发 |
+
+---
+
+## 🙋‍♂️ 作者信息
+
+| 信息 | 内容 |
+|------|------|
+| 👨‍🎓 姓名 | 你的名字 |
+| 🎓 专业 | 地理信息科学 |
+| 🧭 方向 | GIS 开发、空间建模、AI 融合分析 |
+| 📫 联系 | GitHub Issues / 微信 / 邮箱（自填） |
+
+---
+
