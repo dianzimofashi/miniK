@@ -1,48 +1,62 @@
-# miniK GIS 系统 🗺️
+<h1 align="center">🌍 miniK GIS 系统</h1>
 
-> 轻量级 GIS 桌面程序，集成 ArcGIS Engine，支持空间分析、图层管理、目标识别等功能的可拓展平台。
+<p align="center">
+轻量级桌面 GIS 应用，内置 ArcGIS Engine、支持空间分析与 AI 模块扩展 💻🧠
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-Windows-blue?logo=windows&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/language-C%23-blueviolet?logo=c-sharp&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/GIS-ArcGIS--Engine-green?style=for-the-badge"/>
+</p>
 
 ---
 
 ## 📌 项目简介
 
-`miniK` 是一个面向地理信息科学应用场景开发的 Windows 桌面 GIS 系统，基于 **C# WinForms** 与 **ArcGIS Engine SDK** 构建。目标是为用户提供一个可集成的空间数据分析环境，支持基础的图层加载、KDE 核密度分析，以及未来接入 AI 图像识别（如 YOLO）与遥感处理功能。
+`miniK` 是一个专为地理信息科学专业开发的 Windows 桌面 GIS 系统，基于 **C# WinForms** 与 **ArcGIS Engine SDK** 构建。该系统支持用户进行空间数据加载、分析与未来 AI 图像识别（如 YOLO）的扩展。
 
 ---
 
-## ✨ 当前功能
+## ✨ 功能特色
 
-- ✅ ArcGIS Runtime 授权自动绑定  
-- ✅ 登录验证窗口（用户名/密码）  
-- ✅ 主窗体界面与菜单系统  
-- ✅ “关于 miniK” 信息弹窗  
-- 🚧 可扩展：ArcGIS MapControl 地图加载、核密度分析、目标检测叠加...
+| 功能模块                  | 描述                                                                 |
+|---------------------------|----------------------------------------------------------------------|
+| ✅ 授权绑定               | 启动时自动绑定 ArcGIS Runtime 授权                                   |
+| 🔐 登录窗口               | 用户名 + 密码验证 (`miniKsa` / `123123`)                             |
+| 🪟 主窗体界面             | 菜单栏、可拓展控件区域                                               |
+| ℹ️ 关于窗口               | 弹窗展示作者、版本信息                                               |
+| 📈 KDE 核密度分析         | （预留接口）用于空间热点分析计算                                     |
+| 🤖 YOLO AI 模块（计划）   | 接入图像识别算法，用于空间对象检测与叠加                             |
 
 ---
 
-## 🧱 技术栈
+## 🧱 技术栈总览
 
-| 组件              | 描述 |
-|------------------|------|
-| `C#` + `WinForms` | 桌面界面开发 |
-| `ArcGIS Engine`   | 地图展示与空间分析 |
-| `ESRI.ArcGIS`     | 授权与工具支持 |
-| `YOLO` (可选)     | 图像目标识别（计划集成） |
+| 技术         | 说明                       |
+|--------------|----------------------------|
+| `C#`         | 主开发语言                 |
+| `WinForms`   | 桌面 UI 框架               |
+| `ArcGIS Engine` | GIS 分析与地图展示       |
+| `ESRI.ArcGIS` DLLs | 授权与地图控件支持   |
+| `YOLO` (可选) | 图像目标识别（扩展模块） |
 
 ---
 
 ## 🚀 快速开始
 
-### 环境要求
+### ⚙️ 环境要求
 
-- Windows 10+
-- Visual Studio 2019 / 2022
-- 安装 ArcGIS Engine Runtime & SDK（建议 10.2+）
-- .NET Framework 4.7.2+
+- 🪟 Windows 10 / 11
+- 🧰 Visual Studio 2019 / 2022
+- 🧭 ArcGIS Engine Runtime + SDK（推荐 10.2+）
+- 💡 .NET Framework 4.7.2+
 
-### 构建步骤
+---
+
+### 🔧 构建运行
 
 ```bash
 git clone https://github.com/dianzimofashi/miniK.git
 cd miniK
-
+# 在 Visual Studio 中打开 .sln 并运行
