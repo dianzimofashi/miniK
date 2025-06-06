@@ -10,8 +10,8 @@
 <div align = "center">
 
 ![ArcGIS Engine](https://img.shields.io/badge/ArcGIS%20Engine-10.2.2-00A870?style=for-the-badge&logo=esri)
-![ArcObjects](https://img.shields.io/badge/ArcObjects-10.2.2-blue?style=for-the-badge)
-![ArcSDE](https://img.shields.io/badge/ArcSDE-10.2.2-orange?style=for-the-badge)
+![ArcObjects](https://img.shields.io/badge/ArcObjects-10.2.2-blue?style=for-the-badge&logo=esri)
+![ArcSDE](https://img.shields.io/badge/ArcSDE-10.2.2-orange?style=for-the-badge&logo=esri)
 
 </div>
 
