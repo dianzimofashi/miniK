@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ArcGISConnectionTest16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArcGISConnectionTest16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcGISExplorer16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArcGISExplorer16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcGISUpdater16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArcGISUpdater16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ARConfig16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ARConfig16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CadastralBuildAllParcelsCurrent16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CadastralBuildAllParcelsCurrent16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CadastralCheckFabric16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CadastralCheckFabric16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CadastralJoinRestoreXYCoords16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CadastralJoinRestoreXYCoords16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CadastralLineSegmentation16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CadastralLineSegmentation16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CadastralMergeParcelsCourses16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CadastralMergeParcelsCourses16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CadastralMergePoint16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CadastralMergePoint16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarKey16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CarKey16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Concept16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Concept16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ContentsWindowDrapedLayers16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ContentsWindowDrapedLayers16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ContentsWindowElevationLayers16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ContentsWindowElevationLayers16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ContentsWindowExplorer16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ContentsWindowExplorer16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditingAdjustmentLinkTable16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditingAdjustmentLinkTable16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditingCreateCOGOAttributes16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditingCreateCOGOAttributes16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditingSaveEdits16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditingSaveEdits16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditingSaveEdits_B_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditingSaveEdits_B_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditingSketchTool16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditingSketchTool16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditingValidateFeatures16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditingValidateFeatures16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EffectsLayerDepthPriority16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EffectsLayerDepthPriority16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeDropper16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EyeDropper16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Find16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Find16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlagRed16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlagRed16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FolderBlue16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FolderBlue16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FolderBlueAdd16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FolderBlueAdd16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FolderBlueNew16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FolderBlueNew16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FolderBlueOpenState16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FolderBlueOpenState16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenericFlash16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenericFlash16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenericFunction16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenericFunction16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeocodeAddresses16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeocodeAddresses16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeocodeAddressLocator16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeocodeAddressLocator16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeocodeAddressLocatorPackage16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeocodeAddressLocatorPackage16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseCompress16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseCompress16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseConnection16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseConnection16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseConnectionAdd16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseConnectionAdd16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseConnectionAddNew16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseConnectionAddNew16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseConnectionBroken16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseConnectionBroken16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseConnectionBrokenHome16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseConnectionBrokenHome16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseConnectionHome16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseConnectionHome16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseConnectionNew16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseConnectionNew16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseConnectionTime16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseConnectionTime16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseConnectionTiny16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseConnectionTiny16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseCreateFromFile16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseCreateFromFile16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeodatabaseCreateFromShapefile16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeodatabaseCreateFromShapefile16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeoprocessingArcToolboxWindowShow16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeoprocessingArcToolboxWindowShow16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeoprocessingPackage16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeoprocessingPackage16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeoprocessingToolbox16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeoprocessingToolbox16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeoprocessingToolboxPackage16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeoprocessingToolboxPackage16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeoprocessingToolboxPythonInvalid16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeoprocessingToolboxPythonInvalid16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeoprocessingToolboxPythonNew16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeoprocessingToolboxPythonNew16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenPin16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenPin16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group_B_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group_B_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HelpSystem_C_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HelpSystem_C_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectionPanToSelected16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectionPanToSelected16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectionProperties16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectionProperties16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectionSelectByAttributes16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectionSelectByAttributes16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectionSelectLineTool16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectionSelectLineTool16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectionSelectTool16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectionSelectTool16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectionZoomToHighlighted16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectionZoomToHighlighted16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectionZoomToSelected16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectionZoomToSelected16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServerGeneric16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServerGeneric16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServiceGeoRSS16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServiceGeoRSS16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShapefilePolygon16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ShapefilePolygon16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpatialAnalystContourTool16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpatialAnalystContourTool16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surface16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surface16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserTask16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserTask16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsNew16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsNew16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="南通大学_logo_512px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\南通大学-logo-512px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArcCatalog16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArcCatalog16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cat32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseServer16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseServer16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseServerAdd16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseServerAdd16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseServerBroken16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseServerBroken16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseServerBrokenPaused16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseServerBrokenPaused16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseServerBrokenStopped16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseServerBrokenStopped16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseServerPaused16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseServerPaused16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseServersFolder16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseServersFolder16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseServerStopped16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseServerStopped16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseServerUnknown16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseServerUnknown16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graph16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Graph16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphBarMinMax16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphBarMinMax16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphBubble16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphBubble16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphHistogram16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphHistogram16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphHorizontalBar16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphHorizontalBar16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphManage16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphManage16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphNew16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphNew16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphPie16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphPie16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphPolar16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphPolar16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GraphScatterPlot16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GraphScatterPlot16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
