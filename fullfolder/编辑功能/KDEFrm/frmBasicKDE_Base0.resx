@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="comboBox4_raster_sort.Items" xml:space="preserve">
+    <value>TIFF</value>
+  </data>
+  <data name="comboBox4_raster_sort.Items1" xml:space="preserve">
+    <value>IMG</value>
+  </data>
+  <data name="comboBox4_raster_sort.Items2" xml:space="preserve">
+    <value>GRD</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="comboBox4_raster_sort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 642</value>
+  </data>
+  <data name="comboBox4_raster_sort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 34</value>
+  </data>
+  <data name="comboBox4_raster_sort.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;comboBox4_raster_sort.Name" xml:space="preserve">
+    <value>comboBox4_raster_sort</value>
+  </data>
+  <data name="&gt;&gt;comboBox4_raster_sort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox4_raster_sort.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;comboBox4_raster_sort.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label7_raster_sort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7_raster_sort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="label7_raster_sort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7_raster_sort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 604</value>
+  </data>
+  <data name="label7_raster_sort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="label7_raster_sort.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label7_raster_sort.Text" xml:space="preserve">
+    <value>栅格格式</value>
+  </data>
+  <data name="&gt;&gt;label7_raster_sort.Name" xml:space="preserve">
+    <value>label7_raster_sort</value>
+  </data>
+  <data name="&gt;&gt;label7_raster_sort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7_raster_sort.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label7_raster_sort.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="numericUpDown1_raster_resolution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 415</value>
+  </data>
+  <data name="numericUpDown1_raster_resolution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 38</value>
+  </data>
+  <data name="numericUpDown1_raster_resolution.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_raster_resolution.Name" xml:space="preserve">
+    <value>numericUpDown1_raster_resolution</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_raster_resolution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_raster_resolution.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_raster_resolution.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button1_path_set.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="button1_path_set.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 67</value>
+  </data>
+  <data name="button1_path_set.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 38</value>
+  </data>
+  <data name="button1_path_set.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="button1_path_set.Text" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="&gt;&gt;button1_path_set.Name" xml:space="preserve">
+    <value>button1_path_set</value>
+  </data>
+  <data name="&gt;&gt;button1_path_set.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1_path_set.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;button1_path_set.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBox1_output_path.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 67</value>
+  </data>
+  <data name="textBox1_output_path.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 38</value>
+  </data>
+  <data name="textBox1_output_path.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;textBox1_output_path.Name" xml:space="preserve">
+    <value>textBox1_output_path</value>
+  </data>
+  <data name="&gt;&gt;textBox1_output_path.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1_output_path.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;textBox1_output_path.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label6_output_path.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6_output_path.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="label6_output_path.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6_output_path.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 22</value>
+  </data>
+  <data name="label6_output_path.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="label6_output_path.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label6_output_path.Text" xml:space="preserve">
+    <value>输出路径</value>
+  </data>
+  <data name="&gt;&gt;label6_output_path.Name" xml:space="preserve">
+    <value>label6_output_path</value>
+  </data>
+  <data name="&gt;&gt;label6_output_path.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6_output_path.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label6_output_path.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBox4_kernel_function.Items" xml:space="preserve">
+    <value>高斯核</value>
+  </data>
+  <data name="comboBox4_kernel_function.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 522</value>
+  </data>
+  <data name="comboBox4_kernel_function.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 34</value>
+  </data>
+  <data name="comboBox4_kernel_function.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;comboBox4_kernel_function.Name" xml:space="preserve">
+    <value>comboBox4_kernel_function</value>
+  </data>
+  <data name="&gt;&gt;comboBox4_kernel_function.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox4_kernel_function.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;comboBox4_kernel_function.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label5_kernel_function.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5_kernel_function.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="label5_kernel_function.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5_kernel_function.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 479</value>
+  </data>
+  <data name="label5_kernel_function.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="label5_kernel_function.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label5_kernel_function.Text" xml:space="preserve">
+    <value>核函数</value>
+  </data>
+  <data name="&gt;&gt;label5_kernel_function.Name" xml:space="preserve">
+    <value>label5_kernel_function</value>
+  </data>
+  <data name="&gt;&gt;label5_kernel_function.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5_kernel_function.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label5_kernel_function.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label4_raster_resolution.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4_raster_resolution.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="label4_raster_resolution.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4_raster_resolution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 376</value>
+  </data>
+  <data name="label4_raster_resolution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 25</value>
+  </data>
+  <data name="label4_raster_resolution.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label4_raster_resolution.Text" xml:space="preserve">
+    <value>栅格分辨率</value>
+  </data>
+  <data name="&gt;&gt;label4_raster_resolution.Name" xml:space="preserve">
+    <value>label4_raster_resolution</value>
+  </data>
+  <data name="&gt;&gt;label4_raster_resolution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4_raster_resolution.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label4_raster_resolution.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboBox2_distance_unit.Items" xml:space="preserve">
+    <value>meter</value>
+  </data>
+  <data name="comboBox2_distance_unit.Items1" xml:space="preserve">
+    <value>kilometer</value>
+  </data>
+  <data name="comboBox2_distance_unit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 281</value>
+  </data>
+  <data name="comboBox2_distance_unit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 34</value>
+  </data>
+  <data name="comboBox2_distance_unit.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBox2_distance_unit.Name" xml:space="preserve">
+    <value>comboBox2_distance_unit</value>
+  </data>
+  <data name="&gt;&gt;comboBox2_distance_unit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox2_distance_unit.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;comboBox2_distance_unit.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="numericUpDown1_search_distance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 163</value>
+  </data>
+  <data name="numericUpDown1_search_distance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 38</value>
+  </data>
+  <data name="numericUpDown1_search_distance.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_search_distance.Name" xml:space="preserve">
+    <value>numericUpDown1_search_distance</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_search_distance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_search_distance.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_search_distance.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label3_unit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3_unit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="label3_unit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3_unit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 232</value>
+  </data>
+  <data name="label3_unit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="label3_unit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label3_unit.Text" xml:space="preserve">
+    <value>距离单位</value>
+  </data>
+  <data name="&gt;&gt;label3_unit.Name" xml:space="preserve">
+    <value>label3_unit</value>
+  </data>
+  <data name="&gt;&gt;label3_unit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3_unit.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label3_unit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label2_search_distance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2_search_distance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="label2_search_distance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 124</value>
+  </data>
+  <data name="label2_search_distance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="label2_search_distance.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2_search_distance.Text" xml:space="preserve">
+    <value>搜索距离</value>
+  </data>
+  <data name="&gt;&gt;label2_search_distance.Name" xml:space="preserve">
+    <value>label2_search_distance</value>
+  </data>
+  <data name="&gt;&gt;label2_search_distance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2_search_distance.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2_search_distance.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboBox1_selected_layer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 60</value>
+  </data>
+  <data name="comboBox1_selected_layer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 34</value>
+  </data>
+  <data name="comboBox1_selected_layer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_selected_layer.Name" xml:space="preserve">
+    <value>comboBox1_selected_layer</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_selected_layer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_selected_layer.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_selected_layer.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label1_selected_point_layer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1_selected_point_layer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.8pt</value>
+  </data>
+  <data name="label1_selected_point_layer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 22</value>
+  </data>
+  <data name="label1_selected_point_layer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 25</value>
+  </data>
+  <data name="label1_selected_point_layer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1_selected_point_layer.Text" xml:space="preserve">
+    <value>选择点图层</value>
+  </data>
+  <data name="&gt;&gt;label1_selected_point_layer.Name" xml:space="preserve">
+    <value>label1_selected_point_layer</value>
+  </data>
+  <data name="&gt;&gt;label1_selected_point_layer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1_selected_point_layer.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label1_selected_point_layer.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1229, 753</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>15, 26</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1229, 753</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>华文中宋, 13.8pt, style=Bold</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAALy8vADAwMAAzMzMELS0tQSsrK8wsLCz+LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws+ysrK+YsLCzKKysrtSsrK6QsLCxmLCwsMCwsLBMsLCwALCwsACws
+        LAAsLCwALCwsAAAAAAAAAAAAAAAAAAAAAAAtLS0ALS0tAC0tLQwsLCxmLCws4ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz+LCws+CwsLPIsLCzvLCws7ywsLOMsLCzJLCwsfSws
+        LCYsLCwBLCwsACwsLAAsLCwAAAAAAAAAAAAAAAAAAAAAACwsLAAsLCwALCwsDywsLHMsLCzqLCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLPcrKyvSKysrwisrK8UsLCzXLCws7Sws
+        LP8sLCzqLCwsnywsLC4wMDABKysrACsrKwAAAAAAAAAAAAAAAAAAAAAALi4uAC4uLgAxMTEDLS0tRiws
+        LN8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws5iwsLGgrKysoKysrIiws
+        LDAsLCxxLCws0CwsLPgsLCzwLCwsoCwsLComJiYBLCwsAAAAAAAAAAAAAAAAAAAAAAAzMzMAJCQkACsr
+        KwAsLCwoLCwsyiwsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCzSLS0tOiIi
+        IgAsLCwAKysrAC4uLhAtLS1HLCwspywsLO8sLCzsLCwsjiwsLBgpKSkAAAAAAAAAAAAAAAAAAAAAADAw
+        MAAtLS0ALCwsACwsLBMsLCyELCws7iwsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws9Cws
+        LJosLCwcKSkpACkpKQA2NjYAKSkpADExMQMsLCwvLCwspywsLPgsLCzXLS0tQTExMQMAAAAAAAAAAAAA
+        AAAAAAAAMDAwAC4uLgAvLy8AMjIyAy0tLUMsLCzbLCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCzlLCwsaS0tLQwtLS0AKysrACsrKwAsLCwALCwsADc3NwEtLS1HLCws1SwsLO4sLCx/LCwsFAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMjIyACAgIAAqKioALCwsJCsrK7wsLCz9LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws+ywsLL0tLS05NjY2AigoKAIrKysVKysrIywsLCUrKysZLS0tCi0tLRUsLCyELCws6isr
+        K7crKyskAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAALCwsACwsLAAsLCwRLCwseywsLOosLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCzqLCwsci0tLRENDQ0ALCwsJCsrK4grKyvDLCwszSwsLJwsLCxjLS0tIS0t
+        LUYsLCzdKysrxisrKygAAAAAAAAAAAAAAAAAAAAAAAAAADAwMAAsLCwALS0tAB8fHwArKysuKysrviws
+        LPwsLCz/LCws/ywsLP8sLCz/LCws/ywsLM8tLS09AAAAACsrKxEsLCx6LCws3ywsLOUsLCzhLCws5yws
+        LNMsLCxlLS0tOywsLNksLCzRLCwsKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwsLAAsLCwALCwsACws
+        LBEsLCx/LCws7SwsLP8sLCz/LCws/ywsLP8sLCzvLCwsiC0tLRcrKysAKysrIisrK7wsLCzbLCwsai0t
+        LUwrKyuRKysrqiwsLFAtLS1NLCws2ysrK8MrKysnAAAAAAAAAAAAAAAAAAAAACsrKwArKysAKysrACws
+        LAAvLy8ANTU1Ai0tLUMsLCzdLCws/ywsLP8sLCz/LCws/ywsLOIsLCxULCwsBiwsLAAsLCwpLCws0Sws
+        LLksLCwiT09PACsrKxUrKysZLCwsGywsLIEsLCzlLCwspCwsLB8AAAAAAAAAADAwMAAxMTEACgoKACws
+        LAArKysAKysrACsrKwAtLS0ELCwsOSwsLNosLCz/LCws/ywsLP8sLCz/LCws4C0tLVAuLi4NLCwsACws
+        LCMsLCzIKysryCsrKzwtLS0MLi4uCS0tLQorKys6KysrxCwsLOQtLS1sLS0tDwAAAAAwMDAAMTExADIy
+        MgAAAAAALCwsACoqKgErKysUKysrKSwsLFEsLCyOLCws6ywsLP8sLCz/LCws/ywsLP8sLCzwLCwsoyws
+        LGYsLCwuLCwsJywsLH8sLCzbKysrvywsLHktLS1pLCwseSsrK74sLCzpLCwstS0tLTYzMzMDLCwsACws
+        LAAtLS0A////ACQkJAAvLy8FKysrLysrK4orKyvBLCws3ywsLO8sLCz8LCws/ywsLP8sLCz/LCws/yws
+        LP0sLCzzLCws5ywsLNArKyuOKysrVywsLKUsLCzeLCws3SwsLNksLCzZLCws2SwsLKYtLS1DLi4uCh0d
+        HQAsLCwALCwsACwsLAArKysAMDAwBywsLEUrKyu0LCws7iwsLP0sLCz/LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLO4rKyu5LCwseCwsLHErKyuOKysrkywsLH8sLCxXLS0tMDAw
+        MAkqKioANDQ0ACwsLAAsLCwDLCwsFiwsLCosLCxRLCwsuiwsLPgsLCz/LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLPgsLCy9LCwsXSwsLEErKysxLCwsFS0t
+        LQgyMjIDxsbGADMzMwAxMTEALCwsACwsLAssLCxXLCwsriwsLN0sLCz5LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLPgsLCzbLCwssCsr
+        K2YrKysOLCwsADAwMAAyMjIAMTExADAwMAAsLCwBLCwsCiwsLCgsLCx4LCws6ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/yws
+        LOwsLCyBLS0tPC0tLQ8pKSkAKysrAC4uLgAwMDAAMDAwACwsLA0sLCxELCwsZiwsLJMsLCzsLCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws8CwsLKYsLCxvLCwsRSwsLAwsLCwALCwsAAAAAAAAAAAALCwsGCwsLHkrKyupKysrxSws
+        LPUsLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz6LCws1ysrK64sLCx6LCwsFiwsLAAsLCwAAAAAAAAAAAAsLCwGLCwsGyws
+        LC4sLCx4LCws6SwsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLOssLCx/LCwsMCwsLBssLCwFLCwsACwsLAAAAAAAAAAAACws
+        LAAsLCwAAAAAAC0tLUQsLCzfLCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws4ywsLFIvLy8DLCwsACwsLAAsLCwALCwsAAAA
+        AAAAAAAALi4uADMzMwBISEgBLS0tNywsLM4sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCzPLS0tOzU1NQIwMDAALS0tACws
+        LAAsLCwAAAAAAAAAAAAwMDAAOTk5ACkpKQAtLS0XLCwshCwsLO4sLCz/LCws/ywsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws7iwsLIQtLS0WKSkpAEJC
+        QgAxMTEAAAAAAAAAAAAAAAAAAAAAADAwMAAvLy8ALy8vADExMQMtLS1HLCws3iwsLP8sLCz/LCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCzeLS0tRzEx
+        MQMvLy8ALy8vADAwMAAAAAAAAAAAAAAAAAAAAAAAMDAwADAwMAAyMjIAQUFBAS0tLT0sLCzcLCws/yws
+        LP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/ywsLP8sLCz/LCws/yws
+        LNwtLS09QUFBATIyMgAwMDAAMDAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDAwADExMQA9PT0BLS0tPiws
+        LNwsLCz/LCws/ywsLP8sLCz/LCws/ywsLPgsLCz0LCws9ywsLPgsLCz5LCws/SwsLP8sLCz/LCws/yws
+        LP8sLCz/LCws3C0tLT49PT0BMTExADAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAAMTExAD09
+        PQEtLS0+LCws3CwsLP8sLCz/LCws/ywsLPcsLCzeLCwssywsLJwsLCynLCwsqywsLK4rKyvDLCws5Cws
+        LPgsLCz/LCws/ywsLP8sLCzcLS0tPj09PQExMTEAMDAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAw
+        MAAxMTEAPT09AS0tLT8sLCzfLCws/ywsLPIsLCzZLCwspSwsLFwtLS0zLCwsHCwsLBwsLCwdLCwsHSws
+        LCwsLCxoLCwsqiwsLNwsLCzzLCws/ywsLN8tLS0/PT09ATExMQAwMDAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMDAwADExMQBAQEABLS0tNiwsLMAsLCzTLCwskS0tLUUtLS0dLCwsCTQ0NAIpKSkALCwsACws
+        LAAsLCwAKCgoAC0tLQwsLCwiLCwsVCwsLJQsLCzPLCwswC4uLjk4ODgCMTExADAwMAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAwMDAAMzMzACYmJgAtLS0ULCwsUC0tLUYsLCwdLy8vBCoqKgAtLS0AMDAwAP//
+        /wAsLCwALCwsACwsLAAvLy8ALS0tACwsLAArKysJKysrGiwsLDQsLCxQLi4uJjIyMgQwMDAAMDAwAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPgAAAD4AAAA+AAAAPwA
+        AADwAAAAwAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAADAAAAAwAAAAMAAAADAAAADwAA
+        AA8AAAAPgAAAH4AAAB+AAAAfgAAAH4AAAB8=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>KDE核密度计算</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmBasicKDE_Base0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
