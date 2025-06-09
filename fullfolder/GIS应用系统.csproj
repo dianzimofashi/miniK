@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43743683-3591-49F6-B2B7-46278EF8A52B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GIS应用系统</RootNamespace>
+    <AssemblyName>GIS应用系统</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ESRI.ArcGIS.3DAnalyst, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ADF.Local, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.AnalysisTools, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ArcMapUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.AxControls, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Carto, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.CartoUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.CartoXUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Controls, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesFile, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesGDB, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesNetCDF, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesOleDB, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesRaster, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesRasterUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Display, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DisplayUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Framework, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.GeoAnalyst, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geodatabase, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geometry, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geoprocessing, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geoprocessor, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.GlobeCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.NetworkAnalyst, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Output, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SpatialAnalyst, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SpatialAnalystTools, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.SpatialAnalystUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SpatialStatisticsTools, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.System">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SystemUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Version">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="file.cs" />
+    <Compile Include="KDE核密度计算\执行\kernel.cs" />
+    <Compile Include="KDE核密度计算\窗体\frmKDE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KDE核密度计算\窗体\frmKDE.Designer.cs">
+      <DependentUpon>frmKDE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据库\DBBinary\BC_ArcSDEConn.cs" />
+    <Compile Include="数据库\DBFrm\frmArcSDEConn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据库\DBFrm\frmArcSDEConn.Designer.cs">
+      <DependentUpon>frmArcSDEConn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据库\DBFrm\frmArcSDEStoring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据库\DBFrm\frmArcSDEStoring.Designer.cs">
+      <DependentUpon>frmArcSDEStoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmAboutCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmAboutCreator.Designer.cs">
+      <DependentUpon>frmAboutCreator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmAboutSoftware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmAboutSoftware.Designer.cs">
+      <DependentUpon>frmAboutSoftware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmBuffer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmBuffer.Designer.cs">
+      <DependentUpon>frmBuffer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmStatistics.Designer.cs">
+      <DependentUpon>frmStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmQueryByAttribute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmQueryByAttribute.Designer.cs">
+      <DependentUpon>frmQueryByAttribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmQueryBySpatial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmQueryBySpatial.Designer.cs">
+      <DependentUpon>frmQueryBySpatial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="符号系统\ColorRampForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="符号系统\ColorRampForm.Designer.cs">
+      <DependentUpon>ColorRampForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmAddXYData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmAddXYData.Designer.cs">
+      <DependentUpon>frmAddXYData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmAttribute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmAttribute.Designer.cs">
+      <DependentUpon>frmAttribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmPrintView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmPrintView.Designer.cs">
+      <DependentUpon>frmPrintView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="窗体\frmMapMark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="窗体\frmMapMark.designer.cs">
+      <DependentUpon>frmMapMark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="符号系统\DotDensitySymbols.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="符号系统\DotDensitySymbols.Designer.cs">
+      <DependentUpon>DotDensitySymbols.cs</DependentUpon>
+    </Compile>
+    <Compile Include="符号系统\DotDensitySymbolsCmd.cs" />
+    <Compile Include="符号系统\frmSingleSymbol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="符号系统\frmSingleSymbol.Designer.cs">
+      <DependentUpon>frmSingleSymbol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="符号系统\GetSymbolByControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="符号系统\GetSymbolByControl.Designer.cs">
+      <DependentUpon>GetSymbolByControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="符号系统\GraduatedColorSymbols.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="符号系统\GraduatedColorSymbols.Designer.cs">
+      <DependentUpon>GraduatedColorSymbols.cs</DependentUpon>
+    </Compile>
+    <Compile Include="符号系统\GraduatedColorSymbolsCmd.cs" />
+    <Compile Include="符号系统\ProportionalSymbols.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="符号系统\ProportionalSymbols.Designer.cs">
+      <DependentUpon>ProportionalSymbols.cs</DependentUpon>
+    </Compile>
+    <Compile Include="符号系统\ProportionalSymbolsCmd.cs" />
+    <Compile Include="符号系统\SelectSymbolByControl .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="符号系统\SelectSymbolByControl .Designer.cs">
+      <DependentUpon>SelectSymbolByControl .cs</DependentUpon>
+    </Compile>
+    <Compile Include="符号系统\SingleSymbolCmd.cs" />
+    <Compile Include="符号系统\UniqueValuesSymbol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="符号系统\UniqueValuesSymbol.Designer.cs">
+      <DependentUpon>UniqueValuesSymbol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="符号系统\UniqueValuesSymbolCmd.cs" />
+    <Compile Include="编辑功能\CreateFeatureTool.cs" />
+    <Compile Include="编辑功能\MapManager.cs" />
+    <Compile Include="编辑功能\SaveEditCommandClass.cs" />
+    <Compile Include="编辑功能\StopEditCommandClass.cs" />
+    <Compile Include="编辑功能\SupportZMFeatureClass.cs" />
+    <EmbeddedResource Include="KDE核密度计算\窗体\frmKDE.resx">
+      <DependentUpon>frmKDE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据库\DBFrm\frmArcSDEConn.resx">
+      <DependentUpon>frmArcSDEConn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据库\DBFrm\frmArcSDEStoring.resx">
+      <DependentUpon>frmArcSDEStoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmAboutCreator.resx">
+      <DependentUpon>frmAboutCreator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmAboutSoftware.resx">
+      <DependentUpon>frmAboutSoftware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmBuffer.resx">
+      <DependentUpon>frmBuffer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmStatistics.resx">
+      <DependentUpon>frmStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmQueryByAttribute.resx">
+      <DependentUpon>frmQueryByAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmQueryBySpatial.resx">
+      <DependentUpon>frmQueryBySpatial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="符号系统\ColorRampForm.resx">
+      <DependentUpon>ColorRampForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmAddXYData.resx">
+      <DependentUpon>frmAddXYData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmAttribute.resx">
+      <DependentUpon>frmAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmPrintView.resx">
+      <DependentUpon>frmPrintView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="窗体\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="窗体\frmMapMark.resx">
+      <DependentUpon>frmMapMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="符号系统\DotDensitySymbols.resx">
+      <DependentUpon>DotDensitySymbols.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="符号系统\frmSingleSymbol.resx">
+      <DependentUpon>frmSingleSymbol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="符号系统\GetSymbolByControl.resx">
+      <DependentUpon>GetSymbolByControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="符号系统\GraduatedColorSymbols.resx">
+      <DependentUpon>GraduatedColorSymbols.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="符号系统\ProportionalSymbols.resx">
+      <DependentUpon>ProportionalSymbols.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="符号系统\SelectSymbolByControl .resx">
+      <DependentUpon>SelectSymbolByControl .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="符号系统\UniqueValuesSymbol.resx">
+      <DependentUpon>UniqueValuesSymbol.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="数据库\DBBinary\BC_ArcSDEConn.bmp" />
+    <None Include="Resources\南通大学-logo-512px.png" />
+    <None Include="Resources\CarKey16.png" />
+    <None Include="Resources\ArcGISConnectionTest16.png" />
+    <None Include="Resources\ArcGISExplorer16.png" />
+    <None Include="Resources\ArcGISUpdater16.png" />
+    <None Include="Resources\ARConfig16.png" />
+    <None Include="Resources\CadastralBuildAllParcelsCurrent16.png" />
+    <None Include="Resources\CadastralCheckFabric16.png" />
+    <None Include="Resources\CadastralJoinRestoreXYCoords16.png" />
+    <None Include="Resources\CadastralLineSegmentation16.png" />
+    <None Include="Resources\CadastralMergeParcelsCourses16.png" />
+    <None Include="Resources\CadastralMergePoint16.png" />
+    <None Include="Resources\Concept16.png" />
+    <None Include="Resources\ContentsWindowDrapedLayers16.png" />
+    <None Include="Resources\ContentsWindowElevationLayers16.png" />
+    <None Include="Resources\ContentsWindowExplorer16.png" />
+    <None Include="Resources\EffectsLayerDepthPriority16.png" />
+    <None Include="Resources\EyeDropper16.png" />
+    <None Include="Resources\Find16.png" />
+    <None Include="Resources\FlagRed16.png" />
+    <None Include="Resources\FolderBlue16.png" />
+    <None Include="Resources\FolderBlueAdd16.png" />
+    <None Include="Resources\FolderBlueNew16.png" />
+    <None Include="Resources\FolderBlueOpenState16.png" />
+    <None Include="Resources\GenericFlash16.png" />
+    <None Include="Resources\GenericFunction16.png" />
+    <None Include="Resources\GeocodeAddresses16.png" />
+    <None Include="Resources\GeocodeAddressLocator16.png" />
+    <None Include="Resources\GeocodeAddressLocatorPackage16.png" />
+    <None Include="Resources\GeodatabaseCompress16.png" />
+    <None Include="Resources\GeodatabaseConnection16.png" />
+    <None Include="Resources\GeodatabaseConnectionAdd16.png" />
+    <None Include="Resources\GeodatabaseConnectionAddNew16.png" />
+    <None Include="Resources\GeodatabaseConnectionBroken16.png" />
+    <None Include="Resources\GeodatabaseConnectionBrokenHome16.png" />
+    <None Include="Resources\GeodatabaseConnectionHome16.png" />
+    <None Include="Resources\GeodatabaseConnectionNew16.png" />
+    <None Include="Resources\GeodatabaseConnectionTime16.png" />
+    <None Include="Resources\GeodatabaseConnectionTiny16.png" />
+    <None Include="Resources\GeodatabaseCreateFromFile16.png" />
+    <None Include="Resources\GeodatabaseCreateFromShapefile16.png" />
+    <None Include="Resources\GeoprocessingArcToolboxWindowShow16.png" />
+    <None Include="Resources\GeoprocessingPackage16.png" />
+    <None Include="Resources\GeoprocessingToolbox16.png" />
+    <None Include="Resources\GeoprocessingToolboxPackage16.png" />
+    <None Include="Resources\GeoprocessingToolboxPythonInvalid16.png" />
+    <None Include="Resources\GeoprocessingToolboxPythonNew16.png" />
+    <None Include="Resources\GreenPin16.png" />
+    <None Include="Resources\Group_B_16.png" />
+    <None Include="Resources\HelpSystem_C_16.png" />
+    <None Include="Resources\User16.png" />
+    <None Include="Resources\UserTask16.png" />
+    <None Include="Resources\WhatsNew16.png" />
+    <None Include="Resources\SelectionPanToSelected16.png" />
+    <None Include="Resources\SelectionProperties16.png" />
+    <None Include="Resources\SelectionSelectByAttributes16.png" />
+    <None Include="Resources\SelectionSelectLineTool16.png" />
+    <None Include="Resources\SelectionSelectTool16.png" />
+    <None Include="Resources\SelectionZoomToHighlighted16.png" />
+    <None Include="Resources\SelectionZoomToSelected16.png" />
+    <None Include="Resources\ServerGeneric16.png" />
+    <None Include="Resources\ServiceGeoRSS16.png" />
+    <None Include="Resources\ShapefilePolygon16.png" />
+    <None Include="Resources\SpatialAnalystContourTool16.png" />
+    <None Include="Resources\SpatialAnalystScatterplotsEvaluationWindow32.png" />
+    <None Include="Resources\Surface16.png" />
+    <None Include="Resources\EditingAdjustmentLinkTable16.png" />
+    <None Include="Resources\EditingCreateCOGOAttributes16.png" />
+    <None Include="Resources\EditingSaveEdits_B_16.png" />
+    <None Include="Resources\EditingSaveEdits16.png" />
+    <None Include="Resources\EditingSketchTool16.png" />
+    <None Include="Resources\EditingValidateFeatures16.png" />
+    <None Include="Resources\ArcCatalog16.png" />
+    <None Include="Resources\DatabaseServer16.png" />
+    <None Include="Resources\DatabaseServerAdd16.png" />
+    <None Include="Resources\DatabaseServerBroken16.png" />
+    <None Include="Resources\DatabaseServerBrokenPaused16.png" />
+    <None Include="Resources\DatabaseServerBrokenStopped16.png" />
+    <None Include="Resources\DatabaseServerPaused16.png" />
+    <None Include="Resources\DatabaseServersFolder16.png" />
+    <None Include="Resources\DatabaseServerStopped16.png" />
+    <None Include="Resources\DatabaseServerUnknown16.png" />
+    <None Include="Resources\magicgal128.ico" />
+    <None Include="Resources\cat32.ico" />
+    <None Include="Resources\Graph16.png" />
+    <None Include="Resources\GraphBarMinMax16.png" />
+    <None Include="Resources\GraphBubble16.png" />
+    <None Include="Resources\GraphHistogram16.png" />
+    <None Include="Resources\GraphHorizontalBar16.png" />
+    <None Include="Resources\GraphManage16.png" />
+    <None Include="Resources\GraphNew16.png" />
+    <None Include="Resources\GraphPie16.png" />
+    <None Include="Resources\GraphPolar16.png" />
+    <None Include="Resources\GraphScatterPlot16.png" />
+    <EmbeddedResource Include="KDE核密度计算\执行\kernel.bmp" />
+    <Content Include="符号系统\DotDensitySymbolsCmd.bmp" />
+    <Content Include="符号系统\GraduatedColorSymbolsCmd.bmp" />
+    <Content Include="符号系统\ProportionalSymbolsCmd.bmp" />
+    <Content Include="符号系统\SingleSymbolCmd.bmp" />
+    <Content Include="符号系统\UniqueValuesSymbolCmd.bmp" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
